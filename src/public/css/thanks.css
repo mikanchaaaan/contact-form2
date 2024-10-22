@@ -1,0 +1,8 @@
+.thanks-message {
+    text-align: center;
+    width: 100%;
+}
+
+.thanks-message__inner {
+    margin: 40px auto;
+}

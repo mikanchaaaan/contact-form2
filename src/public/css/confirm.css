@@ -1,0 +1,44 @@
+.confirm {
+    text-align: center;
+    width: 1280px;
+}
+
+.confirm__ttl {
+    margin: 40px auto;
+}
+
+.confirm__table {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.confirm__table--row {
+    border: 1px solid #ddd;
+}
+
+.confirm__table--head {
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+}
+
+.confirm__table--content {
+    width: 700px;
+    text-align: left;
+    padding-left: 10px;
+    border: none;
+}
+
+.confirm__table--content input {
+    border: none;
+}
+
+.confirm__submit {
+    width: 200px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
