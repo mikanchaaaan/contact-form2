@@ -19,7 +19,7 @@
                 </div>
                 <div class="form-group__item--content">
                     <div class="form-group__input">
-                        <input class="form-group__item--box" type="text" name="{{ old('name') }}" placeholder="テスト太郎">
+                        <input class="form-group__item--box" type="text" name="name" value="{{ old('name') }}" placeholder="テスト太郎">
                     </div>
                     <div class="form__error">
                         @error('name')
@@ -35,7 +35,7 @@
                 </div>
                 <div class="form-group__item--content">
                     <div class="form-group__input">
-                        <input class="form-group__item--box" type="email" name="{{ old('email') }}" placeholder="test@example.com">
+                        <input class="form-group__item--box" type="email" name="email" value="{{ old('email') }}" placeholder="test@example.com">
                     </div>
                     <div class="form__error">
                         @error('email')
@@ -51,7 +51,7 @@
                 </div>
                 <div class="form-group__item--content">
                     <div class="form-group__input">
-                        <input class="form-group__item--box" type="text" name="{{ old('tel') }}" placeholder="09012345678">
+                        <input class="form-group__item--box" type="text" name="tel" value="{{ old('tel') }}" placeholder="09012345678">
                     </div>
                     <div class="form__error">
                         @error('tel')
